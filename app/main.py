@@ -85,12 +85,27 @@ def list_transactions(id_bank_account: int = None, db: Session = Depends(get_db)
     transactions = crud.get_transactions(db, id_bank_account)
     return transactions
 
+@app.get("/transactions/{id_transaction}", response_model=schemas.TransactionResponse)
+def read_transaction(id_transaction: int, db: Session = Depends(get_db)):
+    db_transaction = crud.get_transaction(db, id_transaction)
+    if not db_transaction:
+        raise HTTPException(status_code=404, detail="Transaction not found")
+    return db_transaction
+
+@app.put("/transactions/{id_transaction}", response_model=schemas.TransactionResponse)
+def update_transaction(id_transaction: int, transaction: schemas.TransactionBase, db: Session = Depends(get_db)):
+    db_transaction = crud.update_transaction(db, id_transaction, transaction)
+    if not db_transaction:
+        raise HTTPException(status_code=404, detail="Transaction update failed")
+    return db_transaction
+
 @app.delete("/transactions/{id_transaction}", response_model=schemas.TransactionResponse)
 def delete_transaction(id_transaction: int, db: Session = Depends(get_db)):
     db_transaction = crud.delete_transaction(db, id_transaction)
     if not db_transaction:
         raise HTTPException(status_code=404, detail="Transaction not found")
     return db_transaction
+
 
 
 @app.post("/accounts/{id_bank_account}/upload_csv_advanced")

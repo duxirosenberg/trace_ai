@@ -76,6 +76,16 @@ def get_transactions(db: Session, id_bank_account: int = None):
     print(f"Transactions for account {id_bank_account}: {query.all()}")  # Log the transactions
     return query.all()
 
+def update_transaction(db: Session, id_transaction: int, transaction: schemas.TransactionBase):
+    db_transaction = get_transaction(db, id_transaction)
+    if db_transaction:
+        for field, value in transaction.dict(exclude_unset=True).items():
+            setattr(db_transaction, field, value)
+        db.commit()
+        db.refresh(db_transaction)
+        return db_transaction
+    return None
+
 def delete_transaction(db: Session, id_transaction: int):
     db_transaction = get_transaction(db, id_transaction)
     if db_transaction:
