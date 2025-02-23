@@ -1,0 +1,37 @@
+"Booking Date","Value Date","Partner Name","Partner Iban",Type,"Payment Reference","Account Name","Amount (CHF)","Original Amount","Original Currency","Exchange Rate"
+2025-02-02,2025-02-01,"Coop City",,Presentment,,"Main Account",-139.00,139.00,CHF,1
+2025-02-02,2025-02-02,"Migros Zürich",,Presentment,,"Main Account",-5.25,5.25,CHF,1
+2025-02-02,2025-02-02,"UBS Bank",,Presentment,,"Main Account",-75.00,75.00,CHF,1
+2025-02-02,2025-02-02,"Kino Maxx",,Presentment,,"Main Account",-48.00,48.00,CHF,1
+2025-02-02,2025-02-02,"Hiltl Restaurant",,Presentment,,"Main Account",-13.90,13.90,CHF,1
+2025-02-02,2025-02-02,"Coffee Fellows",,Presentment,,"Main Account",-16.80,16.80,CHF,1
+2025-02-02,2025-02-02,"ApoZurich",,Presentment,,"Main Account",-15.50,15.50,CHF,1
+2025-02-03,2025-02-03,"SBB Parking",,Presentment,,"Main Account",-21.30,21.30,CHF,1
+2025-02-03,2025-02-03,"Jelmoli",,Presentment,,"Main Account",-9.20,9.20,CHF,1
+2025-02-04,2025-02-03,"Bäckerei Buchmann",,Presentment,,"Main Account",-18.75,18.75,CHF,1
+2025-02-04,2025-02-04,"Zurich Gym",,Presentment,,"Main Account",-22.50,22.50,CHF,1
+2025-02-04,2025-02-04,"VOI Zürich",,Presentment,,"Main Account",-3.25,3.25,CHF,1
+2025-02-05,2025-02-05,"Shell Tankstelle",,Presentment,,"Main Account",-49.80,49.80,CHF,1
+2025-02-05,2025-02-05,"Sushi Zen",,Presentment,,"Main Account",-19.50,19.50,CHF,1
+2025-02-07,2025-02-07,"Swisscom",CH0012345678901234,"Direct Debit","Mobile Bill","Main Account",-11.20,,CHF,
+2025-02-08,2025-02-07,"Denner",,Presentment,,"Main Account",-2.95,2.95,CHF,1
+2025-02-09,2025-02-09,"McDonalds Zürich HB",,Presentment,,"Main Account",-18.90,18.90,CHF,1
+2025-02-09,2025-02-09,"AGIP Tankstelle",,Presentment,,"Main Account",-6.80,6.80,CHF,1
+2025-02-10,2025-02-10,"Tennis Club Zürich",,Presentment,,"Main Account",-27.50,27.50,CHF,1
+2025-02-10,2025-02-10,"Barfüsser",,Presentment,,"Main Account",-21.00,21.00,CHF,1
+2025-02-11,2025-02-11,"Tacos & Co.",,Presentment,,"Main Account",-13.80,13.80,CHF,1
+2025-02-11,2025-02-11,"Starbucks Zürich",,Presentment,,"Main Account",-8.50,8.50,CHF,1
+2025-02-11,2025-02-11,"Tacos & Co.",,Presentment,,"Main Account",-4.75,4.75,CHF,1
+2025-02-11,2025-02-11,"BP Tankstelle",,Presentment,,"Main Account",-11.90,11.90,CHF,1
+2025-02-13,2025-02-12,"Denner",,Presentment,,"Main Account",-5.00,5.00,CHF,1
+2025-02-14,2025-02-13,"Alpenblick Hütte",,Presentment,,"Main Account",-5.25,5.25,CHF,1
+2025-02-14,2025-02-13,"Alpenblick Hütte",,Presentment,,"Main Account",-2.00,2.00,CHF,1
+2025-02-14,2025-02-14,"Yoga Studio Zürich",,Presentment,,"Main Account",-65.00,65.00,CHF,1
+2025-02-15,2025-02-14,"Alpenblick Hütte",,Presentment,,"Main Account",-26.50,26.50,CHF,1
+2025-02-16,2025-02-15,"Alpenblick Hütte",,Presentment,,"Main Account",-2.20,2.20,CHF,1
+2025-02-16,2025-02-16,"JET Tankstelle",,Presentment,,"Main Account",-92.50,92.50,CHF,1
+2025-02-16,2025-02-16,"AGIP Tankstelle",,Presentment,,"Main Account",-9.25,9.25,CHF,1
+2025-02-17,2025-02-16,"Shell Tankstelle",,Presentment,,"Main Account",-9.30,9.30,CHF,1
+2025-02-17,2025-02-17,"Revolut**9876*",,Presentment,,"Main Account",-215.00,215.00,CHF,1
+2025-02-17,2025-02-17,"1078 Shell Winterthur",,Presentment,,"Main Account",-45.30,42.60,CHF,1.0634
+2025-02-18,2025-02-18,"ETH Zürich Mensa",,Presentment,,"Main Account",-9.00,8.50,CHF,1.0588
